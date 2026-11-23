@@ -50,6 +50,7 @@ img { display: block; width: 100%; height: auto; object-fit: cover; }
 h1, h2, h3 { font-family: var(--display); font-weight: 600; }
 h1 { font-size: clamp(3.3rem, 7vw, 7.15rem); line-height: .99; letter-spacing: -.059em; word-spacing: .035em; margin: 26px 0; }
 h1 em, .contact h2 em { color: var(--gold); }
+h1 em { display: block; }
 h2 { font-size: clamp(2.6rem, 5vw, 5.2rem); line-height: 1.045; letter-spacing: -.05em; margin-top: 16px; }
 h2 em { color: var(--rust); }
 h3 { font-size: clamp(1.65rem, 2.65vw, 2.45rem); line-height: 1.1; letter-spacing: -.035em; }
